@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: #fff;
+}
+body{
+    padding-top: 80px;
+}
+.logo img{
+    height: 60px;
+}
+.liens{
+    display: flex;
+    justify-content: space-around;
+}
+.liens a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #999;
+    transition: 0.3s ease-out;
+}
+.liens a:hover{
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+.navbar{
+    width: 40%;
+}
+.active a{
+    color: #e65100;
+    border-bottom: solid 2px #e65100;
+    padding: 7px 10px;
+    
+}
+.inscription{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    color: #999;
+}
+.inscription .left{
+    all: unset;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.inscription .left:hover{
+    color: #ff4500;
+    cursor: pointer;
+}
+.inscription .right{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e65100;
+    color: #fff;
+    font-weight: bold;
+}
+.inscription .right:hover{
+    background-color: #ff4500;
+    cursor: pointer;
+}
+.banier{
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),
+     url(images/banner-caterers.jpg) center / cover no-repeat;
+    height: 300px;
+    background-blend-mode: normal, multiply;
+}
+
+/* stylisation de la page inscription traiteur */
+.description-traiteur{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    margin: auto;
+}
+.description-traiteur h1{
+    font-size: 3.2rem;
+}
+.description-traiteur p{
+    margin-top: 15px;
+}
+.container {
+    
+ max-width: 950px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #fff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+.form-traiteur {
+  display: grid;
+  width: 600px;
+  gap: 25px;
+  margin: auto;
+}
+.block {
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  
+}
+.form-traiteur h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.form-group {
+  display: grid;
+  gap: 8px;
+}
+.form-traiteur .fond-bleu{
+  background-color: #e9f1fe;
+}
+.form-traiteur .fond-bleu::placeholder{
+  color: #000;
+  font-size: 14px;
+}
+.form-traiteur label {
+  font-size: 14px;
+}
+.label-desc{
+    margin-top: 8px;
+}
+.form-traiteur input, select, textarea {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+.checkbox-group label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.block .upload input[type="file"]{
+    border: none;
+}
+#id_input{
+    display: none;
+}
+.file-label{
+    display: inline-block;
+    background-color: #fffbea;
+    padding: 8px 15px;
+    color: #e65100;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.block .telecharge p {
+  font-size: 12px;
+  color: #6b7280;
+}
+.telecharge .pp{ 
+    display: flex;}
+.form-traiteur .btn {
+  justify-self: end;
+  padding: 10px 20px;
+  background: #f97316;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-inscrire{
+    padding-top:0 ;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e65100;
+     width: 130px;
+     justify-self: end;
+}
+/* section footer */
+footer{
+    height: 300px;
+    background-color: #111828;
+}
+.section-footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 220px;
+    border-bottom:  solid 1px #555;
+    width: 85%;
+    margin: auto;
+}
+.col h4{
+    margin-bottom: 15px;
+}
+.col li{
+    color: #999;
+    line-height: 1.4rem;
+    font-size: 13px;
+}
+footer .icons{
+    margin-top: 8px;
+}
+footer .icons a{
+    font-size: 1.3rem;
+    color: #999;
+}
+footer p{
+    color: #999;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 14px;
+}
+
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inscription | traiteur</title>
+  <link rel="stylesheet" href="formulaire.css">
+  <script src="https://kit.fontawesome.com/7653c6b1c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- section de l'entête -->
+  <header>
+    <div class="logo">
+      <a href="#accueil"><img src="images/logo.png" alt="logo"></a>
+    </div>
+    <nav class="navbar">
+      <ul class="liens">
+        <li class="active"><a href="index.html">Accueil</a></li>
+        <li><a href="">Restaurant</a></li>
+        <li><a href="">Cours de Cuisine</a></li>
+        <li><a href="traiteur.html" class="traiteur">Traiteurs</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="inscription">
+      <a href="" class="left">Connexion</a>
+      <a href="formulaire.html" class="right">Inscription</a>
+    </div>
+  </header>
+
+  <!-- section de la banière -->
+  <section class="banier">
+    <div class="description-traiteur">
+      <h1>Devenir Traiteur</h1>
+      <p>Rejoignez notre plateforme et développez votre activité de traiteur</p>
+    </div>
+  </section>
+
+  <!-- section formulaire -->
+  <div class="container">
+
+    <form class="form-traiteur">
+      <div class="block">
+        <h2>Informations de base</h2>
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Nom complet</label>
+            <input type="text">
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input class="fond-bleu" type="email" placeholder="Bintadmin@gmail.com">
+          </div>
+
+          <div class="form-group">
+            <label>Mot de passe</label>
+            <input class="fond-bleu" type="password" placeholder="............">
+          </div>
+
+          <div class="form-group">
+            <label>Confirmer le mot de passe</label>
+            <input type="password">
+          </div>
+        </div>
+      </div>
+
+      <!-- Informations professionnelles -->
+      <div class="block">
+        <h2>Informations professionnelles</h2>
+
+        <div class="grid-1">
+          <div class="form-group">
+            <label>Catégorie</label>
+            <select>
+              <option>Sélectionnez une catégorie</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Années d'expérience</label>
+            <input type="number">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="label-desc">Description</label>
+          <textarea rows="4"></textarea>
+        </div>
+      </div>
+
+      <!-- Services proposés -->
+      <div class="block">
+        <h2>Services proposés</h2>
+
+        <div class="grid-3 checkbox-group">
+          <label><input type="checkbox" value="mariage"> Mariage</label>
+          <label><input type="checkbox" value="anniversaire"> Anniversaire</label>
+          <label><input type="checkbox" value="entreprise"> Événements d'entreprise</label>
+          <label><input type="checkbox" value="cocktails"> Cocktails</label>
+          <label><input type="checkbox" value="buffets"> Buffets</label>
+          <label><input type="checkbox" value="diner"> Dîners privés</label>
+          <label><input type="checkbox" value="sur-mesure"> Cuisine sur mesure</label>
+        </div>
+      </div>
+
+      <!-- Informations de contact -->
+      <div class="block">
+        <h2>Informations de contact</h2>
+
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Téléphone</label>
+            <input type="tel">
+          </div>
+
+          <div class="form-group">
+            <label>Adresse</label>
+            <input type="text">
+          </div>
+        </div>
+      </div>
+
+      <!-- Photo -->
+      <div class="block">
+        <div>
+        <h2>Photo de profil</h2>
+        <p>photo</p>
+        <div class="telecharge">
+          <div class="pp"></div>
+          <input type="file" id="id_input">
+          <label for="id_input" class="file-label">choisir un fichier</label>
+          </div>
+          <p>Aucun fichier choisi</p>
+          <p>Formats acceptés : JPG, JPEG, PNG. Taille maximale : 10MB</p>
+        </div>
+        </div>
+        
+        <button class="btn-inscrire">S'inscrire</button>
+     
+    </form>
+      
+  </div>
+
+  <!-- section footer -->
+  <footer>
+    <div class="section-footer">
+      <div class="col">
+        <h4>à propos</h4>
+        <ul>
+          <li>Qui sommes-nous</li>
+          <li>Contact</li>
+          <li>Mentions légales</li>
+          <li>Politique de confidentialité</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Espace Pro</h4>
+        <ul>
+          <li>Traiteurs</li>
+          <li>Restaurants</li>
+          <li>Cours de cuisine</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Espace Pro</h4>
+        <ul>
+          <li>Devenir partenaire</li>
+          <li>Connexion</li>
+          <li>FAQ Professionnels</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Star Buffet</li>
+          <li>Dakar, Sénégal</li>
+          <li>Tél : +221 77 000 00 00</li>
+          <li>Email : contact@startbuff.com</li>
+          <li class="icons">
+            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p> &copy; 2025 Star Buffet. Tous droits réservés.</p>
+  </footer>
+</body>
+
+</html>
