@@ -1,0 +1,285 @@
+.sidebar{
+    border: 1px solid #7d2e04;
+    width: 20%;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    background-color: #7d2e04;
+    float: left;
+
+}
+.logo-contenu img{
+    width: 80px;
+    padding: 6px;
+    margin-left: 10px;
+    gap: 20px;
+    
+}
+.infos{
+    padding: 2px;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+        font-size: 14px;
+
+}
+.cours{
+    padding: 2px;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+        font-size: 14px;
+
+}
+.categorie{
+    padding: 2px;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+        font-size: 14px;
+
+}
+.restaurant{
+    padding: 2px;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+        font-size: 14px;
+        background-color: #723d1f;
+        border-radius: 5px solid #3c1703;
+        width: 166px;
+        height: 40px;
+        border-radius: 10px;
+
+}
+.traiteurs{
+    padding: 2px;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+        font-size: 14px;
+
+}
+.avis{
+    padding: 2px;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+}
+.bouton{
+    padding-top: 500px;
+    
+  
+}
+.b1{
+   padding: 10px;
+   background-color:#7d2e04;
+   border: none;
+   margin-left: 10px;
+   color: white;
+   
+}
+i{
+    color: #f7bf3d;
+}
+hr{
+   border: none;
+   height: 1px;
+   background-color: #f5c85f;
+  
+}
+.main{
+   
+    background-color:rgb(240, 242, 242);
+    border: 1px solid white;
+    width: 79%;
+    height: 1000px;
+    float: left;
+}
+.contenu-btn{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.s{
+    
+    flex-direction: column;
+    display: flex;
+    gap: 2px;
+}
+
+.p1{
+    
+    margin-left: 50px;
+}
+.btn-bouton{
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.zone{
+   padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 86%;
+    height: 80px;
+    margin-left: 50px;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+label{
+    padding: 5px;
+    gap: 5px;
+}
+.zones{
+    padding: 5px;
+    
+}
+select{
+    background-color: white;
+    border: 1px solid black;
+    width: 93%;
+    margin-left: 4px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    margin-left: 3px;
+    color: white;
+    background-color: #E65100;
+    border: 1px solid #E65100;
+    border-radius: 5px;
+    height: 40px;
+    
+}
+button:hover{
+    transform:  rotate(2deg);
+    transition: 0.5s;
+    color: white;
+    background-color: #E65100;
+    border: 1px solid #E65100;
+    border-radius: 5px;
+    height: 40px;
+}
+td img{
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+    border-radius: 50%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+.tableaux{
+   width: 70vw;
+   height: 90vh;
+   
+   border-radius: 10px;
+   margin-top: 80px;
+   margin-left: 46px;
+  
+}
+
+ table {
+        background-color: white;
+        padding: 20px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 900px;
+        height: 300px;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+ 
+.attente{
+    background-color: rgb(238, 192, 131);
+    color:#723d1f ;
+    border-radius: 5px;
+}  
+.verifier{
+    background-color:rgba(73, 172, 73, 0.553);
+    color: rgb(4, 23, 4);
+     border-radius: 5px;
+}
+.modifier{
+     
+    color: blue;
+    padding: 3px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 2px;
+    font-size: 14px;
+}
+.supprimer{
+     
+    color: red;
+    padding: 3px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+    td {
+        height: 20px;
+        margin-left: 12px;
+        padding: 20px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    th{
+        background-color: #e8ecef;
+        color:rgba(0, 0, 0, 0.891);
+        height: 20px;
+        margin-left: 12px;
+        padding: 20px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    
+   
+    
+    
+    tr th:hover {
+        background-color:white;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

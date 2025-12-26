@@ -237,8 +237,11 @@ body{
     border-radius: 8px;
     border: none;
 }
+.profil button a{
+    color: white;
+}
 .entete .jaune{
-    color: #ffb300;
+    color:#111828;
 }
 .carte img::before{
     content: "vérifié";
